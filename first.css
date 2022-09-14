@@ -1,0 +1,31 @@
+body {
+  background-color: black;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border: white solid 1px;
+  margin: 10px;
+  transition: 0.2s;
+}
+.white {
+  margin-left: 380px;
+}
+.white:hover {
+  border: orange solid 2px;
+  box-shadow: 0px 1px 5px orange;
+}
+.green:hover {
+  border: green solid 2px;
+  box-shadow: 0px 1px 5px green;
+}
+.orange:hover {
+  border: yellow solid 2px;
+  box-shadow: 0px 1px 5px yellow;
+}
+h1 {
+  font-family: Ms Madi;
+  color: orange;
+  text-align: center;
+  text-decoration-line: underline;
+}
