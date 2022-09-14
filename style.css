@@ -1,7 +1,18 @@
-h1 {
+#sticky_box {
+  color: white;
+  position: sticky;
+  top: 10px;
+  left: 250px;
+  border: white solid 1px;
+  width: 200px;
+  align-items: center;
+  background-color: blue;
+}
+h2 {
   color: pink;
   text-decoration: dotted underline skyblue;
   letter-spacing: 2px;
+  font-size: 30px;
 }
 body {
   background-color: black;
@@ -40,7 +51,7 @@ button {
   background-color: black;
   color: cornflowerblue;
 }
-#intro ::first-letter :hover {
-  font-size: large;
-  background-color: rgb(90, 128, 255);
-} 
+
+p {
+  color: gray;
+}
