@@ -1,0 +1,46 @@
+h1 {
+  color: pink;
+  text-decoration: dotted underline skyblue;
+  letter-spacing: 2px;
+}
+body {
+  background-color: black;
+  color: pink;
+}
+#username {
+  background-color: black;
+  color: pink;
+}
+#password {
+  background-color: black;
+  color: pink;
+}
+body {
+  font-family: Fantasy;
+  text-align: center;
+}
+#male {
+  background-color: black;
+}
+#text {
+  color: pink;
+  background-color: black;
+  align: right;
+}
+#intro {
+  color: gray;
+}
+button {
+  background-color: black;
+  color: pink;
+  height: 40px;
+  width: 70px;
+}
+::selection {
+  background-color: black;
+  color: cornflowerblue;
+}
+#intro ::first-letter :hover {
+  font-size: large;
+  background-color: rgb(90, 128, 255);
+} 
