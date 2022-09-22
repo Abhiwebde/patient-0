@@ -1,0 +1,42 @@
+body {
+  background-color: lightpink;
+}
+.navbar {
+  background-color: cornflowerblue;
+  transition: 0.5s;
+}
+.navbar:hover {
+  background-color: lightseagreen;
+}
+#main_nav .navbar-brand {
+  color: pink;
+}
+#main_nav .navbar-nav .nav-item .nav-link {
+  color: white;
+  transition: 0.5s;
+}
+#main_nav .navbar-nav .nav-item .nav-link:hover {
+  color: plum;
+}
+h2 {
+  text-align: center;
+  font-weight: lighter;
+  color: aliceblue;
+}
+/* #very_large {
+  max-width: 700px;
+  max-height: 700px;
+} */
+img {
+  border-radius: 10px;
+}
+.dissapearing_candy {
+  width: 50px;
+  height: 50px;
+}
+/* for changing the tyle of the style sheet after some time */
+@media screen and (max-width: 900px) {
+  #dissapearing_text {
+    display: none;
+  }
+}
